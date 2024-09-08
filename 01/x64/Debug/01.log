@@ -1,0 +1,39 @@
+﻿Сборка начата 13.05.2024 14:36:01.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Hasee\Desktop\АиСД\01\01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\01.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\01.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 01.cpp
+         01.cpp
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(29,26): error C3861: setprecision: идентификатор не найден
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(31,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(32,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(36,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(50,26): error C3861: setprecision: идентификатор не найден
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(52,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(53,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>C:\Users\Hasee\Desktop\АиСД\01\01.cpp(57,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>Сборка проекта "C:\Users\Hasee\Desktop\АиСД\01\01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Hasee\Desktop\АиСД\01\01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(31,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(32,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(36,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(52,25): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(53,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(57,18): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+
+
+       "C:\Users\Hasee\Desktop\АиСД\01\01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(29,26): error C3861: setprecision: идентификатор не найден
+         C:\Users\Hasee\Desktop\АиСД\01\01.cpp(50,26): error C3861: setprecision: идентификатор не найден
+
+    Предупреждений: 6
+    Ошибок: 2
+
+Прошло времени 00:00:01.45
